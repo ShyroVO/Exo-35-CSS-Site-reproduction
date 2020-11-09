@@ -10,6 +10,12 @@ header {
 
 }
 
+a {
+    text-decoration-line: none;
+    color: #b50037;
+    text-shadow: darkgray 0 0 4px;
+}
+
 /* En-tête */
 .menu {
     float: right;
@@ -26,21 +32,21 @@ header {
     margin-right: 25%;
 }
 
+/* Intro */
 .intro {
     position: relative;
-    height: 250px;
-    margin-bottom: 5%;
-    margi
+    height: 350px;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .introTitre {
     position: absolute;
     z-index: 2;
     top: 10%;
+    left: 10%;
 }
 
 .introImage {
@@ -52,4 +58,123 @@ h1 {
 .introImage img {
     height: 350px;
     width: 350px;
+}
+
+/* Section texte */
+
+.sectionText {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.sectionText p {
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+/*Section image */
+.block1 {
+    margin-bottom: 10%;
+    height: 250px;
+}
+
+.block1 .b1Image1 {
+    float: left;
+}
+
+.block1 .b1Image2 {
+    float: right;
+}
+
+.block1 img, .block3 img {
+    width: 370px;
+    height: 250px;
+}
+
+.block2 {
+    margin-bottom: 10%;
+}
+
+.block2 img{
+    width: 100%;
+}
+
+.block3 .b3Image1 {
+    float: left;
+}
+
+.block3 .b3Image2 {
+    float: right;
+}
+
+.block3 {
+    margin-bottom: 10%;
+    height: 250px;
+}
+
+.block4 {
+    position: relative;
+    height: 300px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.b4Image1 {
+    position: absolute;
+    left: 7%;
+}
+
+.b4Image1 img {
+    height: 150px;
+    width: 250px;
+}
+
+.b4Image2 {
+    position: absolute;
+    right: 20%;
+}
+
+.b4Image2 img {
+    height: 150px;
+    width: 120px;
+}
+
+.b4Text1 {
+    position: absolute;
+}
+
+.b4Text2 {
+    position: absolute;
+}
+
+.b4Text3 {
+    position: absolute;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background: #e8e8e8;
+}
+
+.social {
+    font-size: 16px;
+}
+
+.copyright {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-size: 13px;
+}
+
+.backToTop {
+    padding-bottom: 15px;
 }
