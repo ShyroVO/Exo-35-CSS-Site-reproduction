@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 3% 5% 7% 5%;
+
+}
+
+/* En-tête */
+.menu {
+    float: right;
+}
+
+.titreSite {
+    font-size: 40px;
+    float: left;
+}
+
+/* Contenues */
+.contenues {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.intro {
+    position: relative;
+    height: 250px;
+    margin-bottom: 5%;
+    margi
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.introTitre {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+}
+
+.introImage {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.introImage img {
+    height: 350px;
+    width: 350px;
+}
